@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajbinder & Gurpreet</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="heart_favi/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="heart_favi/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="heart_favi/favicon-16x16.png">
+    <link rel="manifest" href="heart_favi/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <video class="video-background" loop muted autoplay>
+        <source src="hearts.mp4"></source>
+    </video>
+    <!-- Container -->
+    <div class="container">
+        <!-- Wedding Invite Landing page -->
+        <div class="invite-container" id="invite-container">
+            <img class="raj-gurps-photo" src="raj-gurps.jpg" alt="Photo of Raj and Gurpreet">
+            <h1>Rajbinder & Gurpreet</h1>
+            <button id="inviteToDetails">Wedding Invitation</button>
+        </div>
+        <!-- Wedding Details -->
+        <div class="details-container" id="details-container" hidden>
+            <h1>Mrs. Darshan Kaur Birk and late Mr. Charanjit Singh Birk</h1>
+            <h2>Request the pleasure of your company on the auspicious occasion of Anand Karaj of their beloved daughter</h2>
+            <h1>Rajbinder Kaur Birk</h1>
+            <h2>Granddaughter of late Amar Singh Birk & Pritam Kaur Birk and late Ajit Singh Sohal & Gurdip Kaur Sohal</h2>
+            <h1>To</h1>
+            <h1>Gurpreet Singh Dhillon</h1>
+            <h2>Son of Hakam Singh Dhillon & Inderjit Kaur Dhillon</h2>
+            <h1>On</h1>
+            <h1>Sunday 4th September 2022</h1>
+            <h1>At</h1>
+            <h1>Sri Guru Singh Sabha, Sheehy Way, Slough, SL2 5SS</h1>
+            <h3>Reception of Barat 9:30am, Milni & Tea 10am, Anand Karaj 11am, Lunch 12pm</h3>
+            <h2>Followed by Dinner & Reception at</h2>
+            <h1>Windsor Race Course</h1>
+            <h3>Windsor, SL4 5JJ</h3>
+            <button id="countdown-start">Start Wedding Day Countdown!</button>
+            <h2>With Warm Regards: Birk, Sohal, Dhoot, & Johal Family</h2>
+        </div>
+        <!-- Countdown -->
+        <div class="countdown" id="countdown" hidden>
+            <h1 class="party">Days until Wedding Day...</h1>
+            <ul>
+                <li><span></span>Days</li>
+                <li><span></span>Hours</li>
+                <li><span></span>Minutes</li>
+                <li><span></span>Seconds</li>
+            </ul>
+            <h2>Anand Karaj at</h2>
+            <h1>Sri Guru Singh Sabha Gudwara, SL2 5SS</h1>
+            <h2>Followed by Dinner & Reception at</h2>
+            <h1>Windsor Race Course, SL4 5JJ</h1>
+            <h3 class="party">RSVP for Reception 07886456852 by 08/08/22</h3> 
+            <button id="wedding-details">Wedding Details</button>
+            <button id="to-ladies-sangeet">Ladies Sangeet Details</button>
+        </div>
+        <!-- Ladies Sangeet -->
+        <div class="ladies-sangeet" id="ladies-sangeet-container" hidden>
+            <h1>Ladies Sangeet & Jaggo</h1>
+            <h2>Friday 2nd September 2022, 6pm to 11pm</h2>
+            <h2>15 The Spur, Slough, SL1 6EU</h2>
+            <button id="sangeetToDetails">Wedding Details</button>
+        </div>
+        <!-- Complete -->
+        <div class="complete" id="complete" hidden>
+            <h1 class="party">Party Time!</h1>
+            <h1>See you at Sri Guru Singh Sabha Gudwara for Anand Karaj, followed by Dinner & Reception at the Windsor Race Course.</h1>
+            <h1 class="party">Be ready to get your groove on!</h1>
+            <button id="completeToDetails">Wedding Details</button>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
